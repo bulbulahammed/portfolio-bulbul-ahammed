@@ -1,0 +1,161 @@
+#hero {
+  font-family: "Poppins", sans-serif;
+  padding: 80px;
+}
+.section-title {
+  padding-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.section-title h3 {
+  font-size: 36px;
+  font-weight: 600;
+  border: 1px solid #fb8500;
+  padding: 20px;
+  color: #fff;
+}
+.section-title p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+
+#hero .hero-photo img {
+  width: 100%;
+}
+#hero .about-text h3 {
+  font-weight: 300;
+  font-size: 32px;
+  color: #fb8500;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+.about-text {
+}
+#hero .about-text p {
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+}
+.hero-text-bottom {
+  color: #fff;
+}
+.hero-text-bottom p {
+  font-weight: 200;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hero-text-bottom p span {
+  font-weight: 400;
+}
+.hero-text-button-area {
+  color: #fff;
+}
+.long-arrow-right {
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.long-arrow-right {
+  transform: rotate(135deg);
+}
+
+.long-arrow-right::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 45px;
+  background-color: black;
+  transform: rotate(-45deg) translate(15px, 4px);
+  left: 0;
+  top: 0;
+}
+
+.buttonfx {
+  color: #fff;
+  width: 173px;
+  height: 56px;
+  border-radius: 28px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #fb8500, #ffb703);
+  outline: none;
+
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none; /* remove underline if using A instead of BUTTON tag */
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+/* //// Default effect: Slide from Top  //// */
+
+.buttonfx:before,
+.buttonfx:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #fff; /* onhover background color */
+  z-index: -1;
+  transform: translate3D(
+    0,
+    -100%,
+    0
+  ); /* move elements above button so they don't appear initially */
+  transition: all 0.5s;
+}
+
+.buttonfx:before {
+  background: #fafcd6; /* button default background color */
+  z-index: -2;
+  transform: translate3D(0, 0, 0);
+}
+
+.buttonfx:hover {
+  color: #fb8500;
+  border: 1px solid #fb8500;
+}
+
+.buttonfx:hover:after {
+  transform: translate3D(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.about-social-icon a {
+  color: #fb8500;
+  transition: all 0.5s;
+}
+
+.about-social-icon a:hover {
+  color: #fff;
+}
+
+/* //// Curtain Up  //// */
+
+.curtainup {
+  transform-style: preserve-3d;
+}
+
+.curtainup:before,
+.curtainup:after {
+  transform-origin: center center;
+  transform: scale(1, 0);
+}
+
+.curtainup:hover:before,
+.curtainup:hover:after {
+  transform: scale(1);
+  border-radius: 0;
+}

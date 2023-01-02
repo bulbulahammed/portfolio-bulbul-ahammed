@@ -1,0 +1,19 @@
+
+#Skills {
+	font-family: 'Poppins', sans-serif;
+	padding:80px;
+}
+.skills-area{
+	color:#fff;
+}
+.progress-bar{
+	background:none;
+	border-radius: 6px;
+}
+.progressbar{
+	padding-top:50px;
+}
+.progress-bar-rect-wrapper{
+	background-color:#E6E7FB;
+	border: none !important;
+}

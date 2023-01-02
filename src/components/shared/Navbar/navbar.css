@@ -1,0 +1,138 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+Nav ul li a {
+  color: #fff;
+  transition: all 0.5s;
+}
+.navbar #custom_nav ul li .active,
+.navbar #custom_nav ul li a:hover,
+.navbar #custom_nav ul li a:focus,
+.navbar #custom_nav ul li a:active,
+.newnavigation #custom_nav ul li .active,
+.newnavigation #custom_nav ul li a:hover,
+.newnavigation #custom_nav ul li a:focus,
+.newnavigation #custom_nav ul li a:active {
+  color: #fb8500;
+}
+
+.josefin,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .logo .navbar-brand,
+#banner .intro-text,
+#banner .intro-text h1,
+#banner .intro-text h4,
+.counter-area .single-counter p {
+  font-family: "Poppins", sans-serif;
+}
+p,
+.navbar #custom_nav ul li,
+.newnavigation #custom_nav ul li,
+#Services .service-content .single-service p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------------------------------------------------
+                     Navigition css start
+-------------------------------------------------------- */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  z-index: 999;
+}
+.navbar .logo .navbar-brand {
+  letter-spacing: 4px;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 15px;
+  float: left;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+Nav ul li {
+  font-size: 14px;
+  margin: 25px 20px 20px;
+  background: none;
+  cursor: pointer;
+}
+Nav ul li a {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fb8500;
+}
+
+.newnavigation .logo .navbar-brand {
+  padding-top: 5px;
+}
+.newnavigation .navbar-toggler {
+  border: none;
+}
+.newnavigation #custom_nav ul li {
+  margin: 10px 20px 10px;
+  font-size: 14px;
+  background: none;
+  cursor: pointer;
+}
+.newnavigation #custom_nav ul li a {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.logo {
+  color: #fb8500;
+}
+.navbar-brand:hover {
+  color: #fb8500;
+}
+
+.sticky,
+.barIcon {
+  background-color: #56537ed8 !important;
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(2px) !important;
+}
+
+@media (max-width: 767.98px) {
+  Nav {
+    background-color: #56537ed8 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(2px) !important;
+  }
+  Nav ul li {
+    font-size: 14px;
+    margin: 10px;
+    background: none;
+    cursor: pointer;
+  }
+}
+/* -------------------------------------------------------
+                     Navigition css End
+-------------------------------------------------------- */
