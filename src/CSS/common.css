@@ -1,19 +1,5 @@
-#contact-area {
-  font-family: "Poppins", sans-serif;
-  padding: 80px;
-}
-.form-control {
-  background: #051c2f;
-  opacity: 0.5;
-  color: #fff;
-  border: none;
-}
-.form-control placeholder {
-  color: #fff;
-}
-
 /* //// Default effect: Slide from Top  //// */
-.sendMailBtn {
+.commonBtn {
   color: #fff;
   width: 173px;
   border-radius: 28px;
@@ -33,9 +19,8 @@
   overflow: hidden;
   transition: all 0.5s;
 }
-
-.buttonfx:before,
-.buttonfx:after {
+.commonBtn:before,
+.commonBtn:after {
   content: "";
   position: absolute;
   left: 0;
@@ -53,18 +38,18 @@
   transition: all 0.5s;
 }
 
-.buttonfx:before {
+.commonBtn:before {
   background: #fafcd6; /* button default background color */
   z-index: -2;
   transform: translate3D(0, 0, 0);
 }
 
-.buttonfx:hover {
+.commonBtn:hover {
   color: #fb8500;
   border: 1px solid #fb8500;
 }
 
-.buttonfx:hover:after {
+.commonBtn:hover:after {
   transform: translate3D(0, 0, 0);
   transition: all 0.5s;
 }

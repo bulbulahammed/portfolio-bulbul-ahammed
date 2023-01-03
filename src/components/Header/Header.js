@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import "../../CSS/common.css";
 import banner from '../../images/programming.png';
 import "./header.css";
 
@@ -16,7 +17,7 @@ const Header = () => {
                                 Deserunt rem facere
                                 necessitatibus fugiat distinctio?</h6>
                             <a href="/#hero">
-                                <Button className="buttonfx curtainup">Learn More</Button>
+                                <Button className="commonBtn curtainup">Learn More</Button>
                             </a>
                         </div>
                         <div className="col-md-2 banner-scroll-btn">

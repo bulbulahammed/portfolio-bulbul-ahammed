@@ -14,7 +14,7 @@ const Service = () => {
                 <div className="row justify-content-center section-title">
                     <div className="col-md-3">
                         <h3>My Skills</h3>
-                        <h4>Get to know my skills</h4>
+                        <p>Get to know my skills</p>
                     </div>
                 </div>
                 <div className="row justify-content-center">

@@ -13,7 +13,7 @@ const Blog = () => {
         <div className="row justify-content-center section-title">
           <div className="col-md-3">
             <h3>My Blogs</h3>
-            <h5>Some of my Projects</h5>
+            <p>My recent blogs</p>
           </div>
         </div>
         <div className="row justify-content-center">

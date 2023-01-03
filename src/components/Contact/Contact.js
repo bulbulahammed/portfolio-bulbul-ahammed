@@ -41,7 +41,7 @@ const Contact = () => {
                                     <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                                 </div>
                                 <div className="col-10 pt-3 mx-auto">
-                                    <button type="submit" className="buttonfx curtainup" value="Send Message">Send Message</button>
+                                    <button type="submit" className="commonBtn curtainup" value="Send Message">Send Message</button>
                                 </div>
                             </div>
                         </form>

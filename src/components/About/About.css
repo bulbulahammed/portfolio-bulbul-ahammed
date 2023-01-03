@@ -75,64 +75,6 @@
   top: 0;
 }
 
-.downloadBtn {
-  color: #fff;
-  width: 173px;
-  border-radius: 28px;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid transparent;
-  font-size: 16px;
-  background-image: linear-gradient(to right, #fb8500, #ffb703);
-  outline: none;
-
-  line-height: 2;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none; /* remove underline if using A instead of BUTTON tag */
-  overflow: hidden;
-  transition: all 0.5s;
-}
-
-/* //// Default effect: Slide from Top  //// */
-
-.downloadBtn:before,
-.downloadBtn:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  background: #fff; /* onhover background color */
-  z-index: -1;
-  transform: translate3D(
-    0,
-    -100%,
-    0
-  ); /* move elements above button so they don't appear initially */
-  transition: all 0.5s;
-}
-
-.downloadBtn:before {
-  background: #fafcd6; /* button default background color */
-  z-index: -2;
-  transform: translate3D(0, 0, 0);
-}
-
-.downloadBtn:hover {
-  color: #fb8500;
-  border: 1px solid #fb8500;
-}
-
-.downloadBtn:hover:after {
-  transform: translate3D(0, 0, 0);
-  transition: all 0.5s;
-}
-
 .about-social-icon a {
   color: #fb8500;
   transition: all 0.5s;

@@ -39,61 +39,6 @@
   padding-top: 350px;
 }
 
-/* //// Default effect: Slide from Top  //// */
-
-.buttonfx:before,
-.buttonfx:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  background: #fff; /* onhover background color */
-  z-index: -1;
-  transform: translate3D(
-    0,
-    -100%,
-    0
-  ); /* move elements above button so they don't appear initially */
-  transition: all 0.5s;
-}
-
-.buttonfx:before {
-  background: #fafcd6; /* button default background color */
-  z-index: -2;
-  transform: translate3D(0, 0, 0);
-}
-
-.buttonfx:hover {
-  color: #fb8500;
-  border: 1px solid #fb8500;
-}
-
-.buttonfx:hover:after {
-  transform: translate3D(0, 0, 0);
-  transition: all 0.5s;
-}
-
-/* //// Curtain Up  //// */
-
-.curtainup {
-  transform-style: preserve-3d;
-}
-
-.curtainup:before,
-.curtainup:after {
-  transform-origin: center center;
-  transform: scale(1, 0);
-}
-
-.curtainup:hover:before,
-.curtainup:hover:after {
-  transform: scale(1);
-  border-radius: 0;
-}
-
 .mouse_scroll {
   display: block;
   margin: 0 auto;
