@@ -75,13 +75,13 @@
   top: 0;
 }
 
-.buttonfx {
+.downloadBtn {
   color: #fff;
   width: 173px;
-  height: 56px;
   border-radius: 28px;
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 1px solid transparent;
   font-size: 16px;
   background-image: linear-gradient(to right, #fb8500, #ffb703);
@@ -98,8 +98,8 @@
 
 /* //// Default effect: Slide from Top  //// */
 
-.buttonfx:before,
-.buttonfx:after {
+.downloadBtn:before,
+.downloadBtn:after {
   content: "";
   position: absolute;
   left: 0;
@@ -117,18 +117,18 @@
   transition: all 0.5s;
 }
 
-.buttonfx:before {
+.downloadBtn:before {
   background: #fafcd6; /* button default background color */
   z-index: -2;
   transform: translate3D(0, 0, 0);
 }
 
-.buttonfx:hover {
+.downloadBtn:hover {
   color: #fb8500;
   border: 1px solid #fb8500;
 }
 
-.buttonfx:hover:after {
+.downloadBtn:hover:after {
   transform: translate3D(0, 0, 0);
   transition: all 0.5s;
 }

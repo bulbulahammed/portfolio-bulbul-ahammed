@@ -59,7 +59,7 @@ const About = () => {
             </div>
             <div className="row hero-text-button-area">
               <div className="col-md-4">
-                <button className="btn buttonfx curtainup">Download CV</button>
+                <a className="downloadBtn curtainup" href="https://drive.google.com/file/d/1nDN7fZSK_pwJcWnKHqxR9t2XoDStdlcA/view" target="_blank" rel="noreferrer">Resume</a>
               </div>
               <div className="col-md-4"></div>
               <div className="col-md-4">
