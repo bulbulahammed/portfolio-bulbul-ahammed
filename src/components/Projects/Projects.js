@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectOne} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Al-Shefa</h2>
                 <a href="https://al-shefa.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectTwo} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Note Book</h2>
                 <a href="https://chirkut.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
@@ -45,7 +45,7 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectThree} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Flight Booking</h2>
                 <a href="https://bulbulahammed.github.io/Assignment-4-ticket-booking/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
@@ -56,9 +56,9 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectFour} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Upcoming</h2>
-                <a href="#">
+                <a  href="https://al-shefa.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
                 </a>
               </div>
@@ -67,9 +67,9 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectFive} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Upcoming</h2>
-                <a href="#">
+                <a  href="https://al-shefa.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
                 </a>
               </div>
@@ -78,9 +78,9 @@ const Projects = () => {
           <div className="col-md-4 single-project">
             <div className="single-project-img">
               <img className="w-100" src={ProjectSix} alt="Project One" />
-              <div class="single-project-overlay">
+              <div className="single-project-overlay">
                 <h2>Upcoming</h2>
-                <a href="#">
+                <a  href="https://al-shefa.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
                 </a>
               </div>

@@ -10,16 +10,16 @@ import './skills.css';
 const Service = () => {
     return (
         <section id="Skills">
-            <div class="container">
+            <div className="container">
                 <div className="row justify-content-center section-title">
                     <div className="col-md-3">
                         <h3>My Skills</h3>
-                        <p>Get to know my skills</p>
+                        <h4>Get to know my skills</h4>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-12">
-                        <div class="skills-area">
+                <div className="row justify-content-center">
+                    <div className="col-md-12">
+                        <div className="skills-area">
                             <div className="row justify-content-center">
                                 <div className="col-md-6">
                                     <div className="skills-left">

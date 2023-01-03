@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="row justify-content-center section-title">
                     <div className="col-md-3">
                         <h3>Contact</h3>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Connect With me</p>
                     </div>
                 </div>
                 <div className="row justify-content-center">

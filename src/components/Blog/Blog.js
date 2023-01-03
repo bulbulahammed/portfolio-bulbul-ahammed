@@ -13,7 +13,7 @@ const Blog = () => {
         <div className="row justify-content-center section-title">
           <div className="col-md-3">
             <h3>My Blogs</h3>
-            <p>Some of my Projects</p>
+            <h5>Some of my Projects</h5>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -25,12 +25,9 @@ const Blog = () => {
                   <h4>10 questions</h4>
                 </Card.Title>
                 <Card.Text>
-                  <p>
-                    {" "}
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have There are many variations
                     of passages of Lorem Ipsum available, but the
-                  </p>
                 </Card.Text>
                 <div className="blog-link">
                   <a href="https://mdbulbulahammed-82433.medium.com/10-important-interview-questions-for-a-javascript-developer-5b092d861a8">
@@ -48,12 +45,9 @@ const Blog = () => {
                   <h4>JSX in detail</h4>
                 </Card.Title>
                 <Card.Text>
-                  <p>
-                    {" "}
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have There are many variations
                     of passages of Lorem Ipsum available, but the
-                  </p>
                 </Card.Text>
                 <div className="blog-link">
                   <a href="https://mdbulbulahammed-82433.medium.com/jsx-in-detail-240ee05c0af4">
@@ -71,12 +65,9 @@ const Blog = () => {
                   <h4>Important facts</h4>
                 </Card.Title>
                 <Card.Text>
-                  <p>
-                    {" "}
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have There are many variations
                     of passages of Lorem Ipsum available, but the
-                  </p>
                 </Card.Text>
                 <div className="blog-link">
                   <a href="https://mdbulbulahammed-82433.medium.com/some-important-facts-that-a-developer-must-know-dd84d972a43b">
