@@ -13,9 +13,7 @@ const Header = () => {
                         <div className="col-md-4 banner-text text-left">
                             <h4>I'm Bulbul</h4>
                             <h2>Web Developer</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Deserunt rem facere
-                                necessitatibus fugiat distinctio?</h6>
+                            <h6>I am a Junior MERN Developer with experience building user interfaces using React, a JavaScript library for building web applications.</h6>
                             <a href="/#hero">
                                 <Button className="commonBtn curtainup">Learn More</Button>
                             </a>
