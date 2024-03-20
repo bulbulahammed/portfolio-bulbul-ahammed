@@ -57,8 +57,8 @@ const Projects = () => {
             <div className="single-project-img">
               <img className="w-100" src={ProjectFour} alt="Project One" />
               <div className="single-project-overlay">
-                <h2>Flight Booking</h2>
-                <a  href="https://bulbulahammed.github.io/Assignment-4-ticket-booking/" target="_blank" rel="noreferrer">
+                <h2>Turbo Motors</h2>
+                <a  href="https://turbo-motors.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={(fas, faLink)} />
                 </a>
               </div>
