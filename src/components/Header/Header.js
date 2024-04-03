@@ -1,24 +1,22 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import "../../CSS/common.css";
 import banner from '../../images/programming.png';
 import "./header.css";
 
 const Header = () => {
     return (
-        <header id="banner" className="text-center">
+        <header id="banner" className="text-center bg-cover bg-center h-screen relative z-50 text-white pb-12">
             <div className="container">
-                <div className="banner-area">
-                    <div className="row justify-content-between">
-                        <div className="col-md-4 banner-text text-left">
-                            <h4>I'm Bulbul</h4>
-                            <h2>Web Developer</h2>
-                            <h6>I am a Junior MERN Developer with experience building user interfaces using React, a JavaScript library for building web applications.</h6>
+                    <div className="row justify-center">
+                        <div className="col-md-4 pt-52 tracking-wide text-center">
+                            <h4 className='text-xl leading-8 font-bold tracking-widest'>I'm Bulbul</h4>
+                            <h2 className="text-4xl py-7 font-semibold tracking-widest">Web Developer</h2>
+                            <h6 className="text-base font-normal tracking-widest text-justify pb-5">I am a Junior MERN Developer with experience building user interfaces using React, a JavaScript library for building web applications.</h6>
                             <a href="/#hero">
-                                <Button className="commonBtn curtainup">Learn More</Button>
+                                <button className="commonBtn curtainup">Learn More</button>
                             </a>
                         </div>
-                        <div className="col-md-2 banner-scroll-btn">
+                        <div className="col-md-2 pt-80 mt-8">
                             <a href="#hero">
                                 <div className="mouse_scroll">
                                     <div className="mouse">
@@ -32,11 +30,10 @@ const Header = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="col-md-4 banner-image">
+                        <div className="col-md-4 pt-24">
                             <img className="w-100" src={banner} alt="Banner" />
                         </div>
                     </div>
-                </div>
             </div>
         </header>
     );

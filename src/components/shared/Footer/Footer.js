@@ -1,18 +1,16 @@
 import React from 'react';
-import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-        <div className="container footer-line footer-area text-center">
-            <div className="row justify-content-center">
-                <div className="col-md-12">
-                    <p>&copy; Copyright 2020-2021 All rights are Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-  )
-}
+    <div className="text-white text-center my-0 py-0" style={{background:"#0d135b"}}>
+      <div className='container'>
+        <div className='border-t border-slate-500'> 
 
-export default Footer
+        </div>
+        <p className='py-5 text-lg font-poppins font-light'> &copy; Copyright 2024-2025. All rights are reserved.</p>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

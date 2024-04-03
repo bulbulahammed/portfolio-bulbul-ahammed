@@ -30,7 +30,7 @@ const About = () => {
             <div className="about-text text-left">
               <h3>I'm Bulbul</h3>
               <p>
-              As a junior MERN stack developer, I am familiar with the basics of MongoDB, Express.js, React.js and Node.js, and have experience building web applications using these technologies. I am still learning and expanding my skills in these areas, but am able to create functional and visually appealing web pages and connect them to a database. I am also familiar with Git, HTML, CSS and JavaScript.
+                As a junior MERN stack developer, I am familiar with the basics of MongoDB, Express.js, React.js and Node.js, and have experience building web applications using these technologies. I am still learning and expanding my skills in these areas, but am able to create functional and visually appealing web pages and connect them to a database. I am also familiar with Git, HTML, CSS and JavaScript.
               </p>
             </div>
             <div className="row text-left hero-text-bottom">
@@ -71,7 +71,7 @@ const About = () => {
                     </a>
                   </div>
                   <div className="col-md-3">
-                    <a href="https://twitter.com/themexposer" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/bulbuljsdev" target="_blank" rel="noreferrer">
                       <FontAwesomeIcon icon={(fab, faTwitterSquare)} />
                     </a>
                   </div>

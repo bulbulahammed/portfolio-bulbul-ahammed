@@ -1,11 +1,12 @@
 import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
+import reactJS from '../../images/React.png';
+import skillBG from "../../images/circut-background.png";
 import css from '../../images/css3.png';
 import html from '../../images/html5.png';
 import js from '../../images/js.png';
 import mongoDB from '../../images/mongo-db.png';
 import nodeJS from '../../images/node-js.png';
-import reactJS from '../../images/React.png';
 import './skills.css';
 const Service = () => {
     return (
@@ -17,7 +18,8 @@ const Service = () => {
                         <p>Get to know my skills</p>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center bg-no-repeat bg-cover" 
+                        style={{backgroundImage: `url(${skillBG})`,}}>
                     <div className="col-md-12">
                         <div className="skills-area">
                             <div className="row justify-content-center">

@@ -1,19 +1,17 @@
-
 #Skills {
-	font-family: 'Poppins', sans-serif;
-	padding:80px;
+  padding: 80px;
 }
-.skills-area{
-	color:#fff;
+.skills-area {
+  color: #fff;
 }
-.progress-bar{
-	background:none;
-	border-radius: 6px;
+.progress-bar {
+  background: none;
+  border-radius: 6px;
 }
-.progressbar{
-	padding-top:50px;
+.progressbar {
+  padding-top: 50px;
 }
-.progress-bar-rect-wrapper{
-	background-color:#E6E7FB;
-	border: none !important;
+.progress-bar-rect-wrapper {
+  background-color: #e6e7fb;
+  border: none !important;
 }

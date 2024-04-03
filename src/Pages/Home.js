@@ -5,11 +5,11 @@ import Contact from '../components/Contact/Contact';
 import Header from "../components/Header/Header";
 import Projects from '../components/Projects/Projects';
 import Skills from "../components/Skills/Skills";
-import "./home.css";
+import Footer from '../components/shared/Footer/Footer';
 
 const Home = () => {
   return (
-    <div className='full-body' id="home">
+    <div id="home" style={{background:"#0d135b"}}>
         <div className='text-center'>
             <Header/>
             <About/>
@@ -17,6 +17,7 @@ const Home = () => {
             <Projects/>
             <Blog/>
             <Contact/>
+            <Footer/>
         </div>
     </div>
   )

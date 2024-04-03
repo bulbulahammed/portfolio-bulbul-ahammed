@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
+import "../../CSS/common.css";
 import contact_img from '../../images/message.png';
 import './contact.css';
 
@@ -41,7 +42,7 @@ const Contact = () => {
                                     <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                                 </div>
                                 <div className="col-10 pt-3 mx-auto">
-                                    <button type="submit" className="commonBtn curtainup" value="Send Message">Send Message</button>
+                                    <button className="commonBtn curtainup" value="Send Message">Send Message</button>
                                 </div>
                             </div>
                         </form>

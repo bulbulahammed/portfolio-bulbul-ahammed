@@ -1,38 +1,39 @@
-#blog{
-    font-family: 'Poppins', sans-serif;
-	padding:80px;
+#blog {
+  font-family: "Poppins", sans-serif;
+  padding: 80px;
 }
 
-.single-blog h4{
-    font-size: 32px;
-    text-align: left;
-    font-weight: 500;
+.single-blog h4 {
+  font-size: 32px;
+  text-align: left;
+  font-weight: 500;
 }
-.single-blog p{
-    text-align: justify;
-    font-family:16px;
-    font-weight: 400px;
-    margin-bottom:0;
+.single-blog p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 0;
 }
 
-
-.single-blog .blog-link{
-    text-align: right;
-    margin:0;
-    padding:0;
+.single-blog .blog-link {
+  text-align: right;
+  margin: 0;
+  padding: 0;
 }
-.single-blog .blog-link a{
-    font-size:40px;
-    text-decoration: none;
-    color: #000;
-    transition: .3s;
+.single-blog .blog-link a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
 }
-.single-blog .blog-link a:hover{
-    color: #fff;
+.single-blog .blog-link a:hover {
+  color: #fff;
 }
-.single-blog:hover .card{
-    transition: .3s;
+.single-blog:hover .card {
+  transition: 0.3s;
 }
-.single-blog:hover .card{
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px, rgba(255, 255, 255, 0.2) 0px 16px 56px, rgba(255, 255, 255, 0.2) 0px 24px 80px;
+.single-blog:hover .card {
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px,
+    rgba(255, 255, 255, 0.2) 0px 16px 56px,
+    rgba(255, 255, 255, 0.2) 0px 24px 80px;
 }

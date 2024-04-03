@@ -1,8 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Footer from './components/shared/Footer/Footer';
-import Navbar from './components/shared/Navbar/Navbar';
 import Home from './Pages/Home';
+import Navbar from './components/shared/Navbar/Navbar';
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
